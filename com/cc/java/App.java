@@ -9,7 +9,7 @@ public class App {
 		
 		try 
 		{		
-			str = null;  // String Errpr -> str = null NullPointer Exception
+			str = "Irgendein Random String";  // String Errpr -> str = null NullPointer Exception
 			System.out.println("Stringlänge :" + str.length());
 			
 			ch = str.charAt(0); // Error -> str.length()
